@@ -21,7 +21,7 @@ jobs:
         uses: battila7/get-version-action@v2
 
       - name: Install Go
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v4
         with:
           go-version: ${{ matrix.go-version }}
       - name: Test
